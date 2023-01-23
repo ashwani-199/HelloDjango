@@ -1,10 +1,8 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(
-        request,
-        "index.html",
-        {
-            "title": "Django example",
-        },
-    )
+    data = "Hy Python"
+    context = {
+        'form': data
+    }
+    return render(request, "index.html", context )
