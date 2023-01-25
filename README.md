@@ -1,4 +1,4 @@
-# GitHub Codespaces ♥️ Django
+# GitHub ♥️ Django
 
 Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
 
