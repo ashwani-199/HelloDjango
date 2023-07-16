@@ -35,18 +35,6 @@ def index(request):
         ratings.append(ementa)
         images.append(image)
 
-        # for each in specification:
-        #     col = each.find_all('li', attrs={'class': 'rgWa7D'})
-        #     app = col[0].text
-        #     os_ = col[1].text
-        #     hd_ = col[2].text
-        #     sound_ = col[3].text
-
-        #     apps.append(app)  # Add supported apps specifications to list
-        #     os.append(os_)  # Add operating system specifications to list
-        #     hd.append(hd_)  # Add resolution specifications to list
-        #     sound.append(sound_)  # Add sound specifications to list
-
         df = pd.DataFrame(
             {'Product_name': products,
              'Price': prices, 'Rating': ratings, 'image': images})
